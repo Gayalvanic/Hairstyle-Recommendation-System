@@ -1,10 +1,10 @@
-# 💇 Hairstyle Recommendation System
+#  Hairstyle Recommendation System
 
 A machine learning-based system that recommends hairstyles based on a user's facial features. It detects facial shape using supervised ML and maps it to the most suitable hairstyle.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User inputs facial measurement data
 2. The system extracts 9 key facial features from the dataset
@@ -12,14 +12,14 @@ A machine learning-based system that recommends hairstyles based on a user's fac
 4. The system returns a hairstyle recommendation based on the predicted shape
 
 ### Face Shapes Detected
-- 🫀 Heart
+- 🤍 Heart
 - 🟥 Square
 - 🔵 Round
 - 🥚 Oval
 
 ---
 
-## 🔬 ML Pipeline
+##  ML Pipeline
 
 | Step | Details |
 |------|---------|
@@ -33,7 +33,7 @@ A machine learning-based system that recommends hairstyles based on a user's fac
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3
 - **Libraries:**
@@ -44,7 +44,7 @@ A machine learning-based system that recommends hairstyles based on a user's fac
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Hairstyle-Recommendation-System/
@@ -63,7 +63,7 @@ Hairstyle-Recommendation-System/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 ```bash
@@ -77,7 +77,7 @@ python app.py
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 - Cross-validation across **20 folds**
 - Final prediction selected from the fold with **maximum accuracy**
@@ -85,16 +85,11 @@ python app.py
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Integrate real-time **webcam facial detection** using OpenCV
 - Expand dataset for improved generalization
 - Add a web-based UI using Flask or Streamlit
 - Include hairstyle images in recommendations
 
----
 
-## 👩‍💻 Author
-
-**Gayalvanic**  
-[GitHub Profile](https://github.com/Gayalvanic)
