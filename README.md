@@ -66,14 +66,29 @@ Hairstyle-Recommendation-System/
 ##  Getting Started
 
 ### Prerequisites
+Make sure you have Python 3.x installed on your machine.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Gayalvanic/Hairstyle-Recommendation-System.git
+cd Hairstyle-Recommendation-System
+```
+
+### 2. Install Dependencies
 ```bash
 pip install pandas numpy scikit-learn
 ```
 
-### Run the App
+### 3. Ensure Dataset is in Place
+Make sure `dataset27.csv` is present in the root directory of the project before running.
+
+### 4. Run the Application
 ```bash
 python app.py
 ```
+
+### 5. Follow the Prompts
+Once running, enter your facial measurements when prompted. The system will analyze your inputs and recommend a suitable hairstyle based on your face shape.
 
 ---
 
